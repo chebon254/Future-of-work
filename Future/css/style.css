@@ -50,8 +50,15 @@ nav {
     height: 100px;
     width: 100%;
     background-color: #ffffff;
+    position: fixed;
+    z-index: 10;
+    top: 0;
 }
-
+.nav.sticky{
+    background-color: #ffffff;
+    box-shadow: 6px 6px 24px #00000033;
+    transition: all ease 0.4s;
+}
 .nav-container {
     height: 100%;
     width: 100%;
@@ -135,6 +142,7 @@ section.banner {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 100px;
 }
 
 .banner-container {
@@ -209,7 +217,7 @@ section.banner {
 
 .summit-info {
     background: #1836B2;
-    padding: 80px 0px;
+    padding: 120px 0px 60px;
 }
 
 .summit-card {
@@ -249,7 +257,7 @@ section.speakers,
 section.contact,
 section.schedule,
 section.sponsors {
-    padding: 80px 0px;
+    padding: 120px 0px 80px;
 }
 
 .overview-container {
@@ -321,7 +329,7 @@ section.sponsors {
 }
 
 .takeaway {
-    padding: 80px 0px;
+    padding: 120px 0px 60px;
     background: #E8F1FF;
 }
 

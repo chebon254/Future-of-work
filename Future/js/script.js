@@ -2,7 +2,13 @@
 const menuBtn = document.querySelector(".menu-btn");
 const cancelBtn = document.querySelector(".cancel-btn");
 const menu = document.querySelector(".links");
+const header = document.querySelector(".nav");
 // Onclick For Menu Bar
+// Onscroll Change Nav Bar Background
+window.onscroll = ()=>{
+    this.scrollY > 20 ? header.classList.add("sticky") : header.classList.remove("sticky");
+}
+
 menuBtn.onclick = ()=>{
     menu.classList.add("active");
     menuBtn.classList.add("hide");
