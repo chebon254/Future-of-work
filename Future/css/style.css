@@ -31,7 +31,7 @@ html {
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-    background: #25518C;
+    background: #90123F;
 }
 
 /* == || SCROLL BAR == */
@@ -99,7 +99,7 @@ nav {
 
 .links a.active,
 .links a:hover {
-    color: red;
+    color: #90123F;
 }
 
 .nav-logo {
@@ -112,6 +112,7 @@ nav {
     font-size: 24px;
     line-height: 36px;
     color: #25518C;
+    
 }
 
 .nav-logo img {
@@ -136,7 +137,7 @@ nav {
 section.banner {
     min-height: 720px;
     width: 100%;
-    background-image: url('img/Future\ of\ Work\ Summit\ -\ Banner.png');
+    background-image: url('img/section-banner.png');
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
@@ -216,7 +217,7 @@ section.banner {
 }
 
 .summit-info {
-    background: #1836B2;
+    background: #90123F;
     padding: 120px 0px 60px;
 }
 
@@ -433,7 +434,7 @@ h1.head-title span {
     left: 0;
     height: 100%;
     width: 100%;
-    background: rgba(24, 54, 178, 0.75);
+    background: rgba(144, 18, 63, 0.75);
     border-radius: 25px;
     padding: 40px 20px;
     transition: all ease 400ms;
@@ -694,7 +695,7 @@ section.contact {
     font-weight: 700;
     font-size: 24px;
     line-height: 36px;
-    color: #1836B2;
+    color: #90123F;
     margin: 10px 0px;
 }
 
@@ -814,7 +815,7 @@ form .control-group input::placeholder{
 
 /* == || Contact == */
 footer {
-    background: #1836B2;
+    background: #90123F;
     padding: 10px 0px;
 }
 
